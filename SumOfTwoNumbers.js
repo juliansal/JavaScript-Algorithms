@@ -1,3 +1,4 @@
+// Simple script for finding if any two numbers in an array add up to a chosen value (using javascript). No concern was given for O(n)
 var evalArray = [2, 0, 4, 6, 8, 9]; //values to evaluate
 var sum = 8; //the chosen value that must be added up to
 
