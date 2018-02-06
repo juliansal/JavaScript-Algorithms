@@ -7,11 +7,12 @@
 
 var xArr = [10,20,40,40,100,10,20,40,80,0,60,60];
 var z = 8;
+
 for(var i = 0; i < xArr.length; i++) {
-  var y = z + (-xArr[i]);
-  if(xArr.includes(y)) {
-    if(xArr.indexOf(y) != i || xArr.includes(y, i+1)) {
-      console.log(xArr[i]);
-    }
-  }
+	var y = z + (-xArr[i]);
+	if(xArr.includes(y)) {
+		if(xArr.indexOf(y) != i || xArr.includes(y, i+1)) {
+			console.log(xArr[i]);
+		}
+	}
 }
