@@ -10,7 +10,7 @@ var z = 8;
 for(var i = 0; i < xArr.length; i++) {
   var y = z + (-xArr[i]);
   if(xArr.includes(y)) {
-      if(xArr.indexOf(y) != i || xArr.includes(y, i+1)) {
+  if(xArr.indexOf(y) != i || xArr.includes(y, i+1)) {
       	console.log(xArr[i]);
       }
   }
