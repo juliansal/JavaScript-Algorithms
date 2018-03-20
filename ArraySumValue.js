@@ -6,7 +6,7 @@
 // var y = 8 + (-2)
 
 var xArr = [10,20,40,40,100,10,20,40,80,0,60,60];
-var z = 8;
+var z = 80;
 
 for(var i = 0; i < xArr.length; i++) {
 	var y = z + (-xArr[i]);
